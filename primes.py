@@ -57,6 +57,8 @@ for i in range(1, 1000000):
         else:
             PP[bin] = 1
     if(i%100 == 0):
-        print(i, p)
+        print(int(time() - start), i, p)
+
+
 print(PP)
 print(time() - start)
